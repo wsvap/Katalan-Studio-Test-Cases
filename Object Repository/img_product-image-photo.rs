@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_product-image-photo</name>
+   <tag></tag>
+   <elementGuidId>a47ec711-1557-4894-ad07-776c752fe0d4</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-image-photo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://uk.nordtek.dev.erise.hu/pub/media/catalog/product/cache/0b1107d053a289736cde32f4e715ebb1/S/A/SAPCODE_101373_v1_7.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Pumpa, 28/410, DPGR, fehér, FBOG 160 mm, K2 aktuator</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>208</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>260</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;niks-ajax-wrapper&quot;]/div[@class=&quot;products wrapper grid products-grid products-grid-partitioned category-products-grid centered hover-effect pos-&quot;]/ol[@class=&quot;products list items product-items itemgrid itemgrid-adaptive itemgrid-3col&quot;]/li[@class=&quot;item&quot;]/div[@class=&quot;product-item-info imgdim-x&quot;]/div[@class=&quot;product-item-img&quot;]/a[@class=&quot;product photo product-item-photo&quot;]/span[@class=&quot;product-image-container&quot;]/span[@class=&quot;product-image-wrapper&quot;]/img[@class=&quot;product-image-photo&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
