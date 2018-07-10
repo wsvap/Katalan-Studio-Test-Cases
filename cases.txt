@@ -1,0 +1,22 @@
+Newsletter Wrong email:
+WebUI.navigateToUrl('http://uk.nordtek.dev.erise.hu/')
+WebUI.scrollToElement(findTestObject('div_ 1997-2018 Nordtek Packagi'), 0)
+WebUI.setText(findTestObject('input_email'), 'qweqwe')
+WebUI.click(findTestObject('button_I want special offers'))
+WebUI.waitForElementPresent(findTestObject('div_Please enter a valid email'), 10)
+
+Newsletter Existing email:
+WebUI.navigateToUrl('http://uk.nordtek.dev.erise.hu/')
+WebUI.scrollToElement(findTestObject('div_ 1997-2018 Nordtek Packagi'), 0)
+WebUI.setText(findTestObject('input_email'), 'qwe@qwe.hu')
+WebUI.click(findTestObject('button_I want special offers'))
+WebUI.waitForElementPresent(findTestObject('div_There was a problem with t'), 10)
+
+Newsletter Succes:
+import org.apache.commons.lang.RandomStringUtils as RandStr
+WebUI.navigateToUrl('http://uk.nordtek.dev.erise.hu/')
+WebUI.scrollToElement(findTestObject('div_ 1997-2018 Nordtek Packagi'), 0)
+WebUI.setText(findTestObject('input_email'), RandStr.randomAlphabetic(8) + '@teszt-eset.hu')
+WebUI.click(findTestObject('button_I want special offers'))
+WebUI.waitForElementPresent(findTestObject('div_Thank you for your subscri'), 10)
+
