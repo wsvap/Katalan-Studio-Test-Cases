@@ -13,9 +13,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\work4\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Newsletter subscribe\\Succes\\20180710_105105\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\work4\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Login\\kjhkjh\\20180710_115318\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Newsletter subscribe/Succes', new TestCaseBinding('Test Cases/Newsletter subscribe/Succes', [:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Login/kjhkjh', new TestCaseBinding('Test Cases/Login/kjhkjh', [:]), FailureHandling.STOP_ON_FAILURE , false)
     

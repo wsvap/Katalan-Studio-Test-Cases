@@ -13,9 +13,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\work4\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Cookie bar\\20180710_111638\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\work4\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Login\\Wrong email\\20180710_120027\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Cookie bar', new TestCaseBinding('Test Cases/Cookie bar', [:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Login/Wrong email', new TestCaseBinding('Test Cases/Login/Wrong email', [:]), FailureHandling.STOP_ON_FAILURE , false)
     
